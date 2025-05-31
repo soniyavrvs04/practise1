@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+       
+    <style> #displaybox{
+         background-color: aquamarine;
+          width:50%;
+         height: 200px;
+         line-height: 50%;
+         display:flex;
+         margin:auto;
+         justify-content: center;
+         align-items: center;
+        }
+        #clickme{
+            top:300px;
+            width:100px;
+            height: 50px;
+            display: block;
+            align-items: center;
+            margin: auto;
+        }
+        input{
+            margin: auto;
+            padding: 20px;
+            display: block;
+            align-items: center;
+        }
+        #counter-box{
+            background-color: rgb(127, 255, 161);
+          width:50%;
+         height: 200px;
+         line-height:400px;
+         display:flex;
+         margin:auto;
+         justify-content: center;
+         align-items: center;
+        }
+        #counter-btn{
+             margin: auto;
+            padding: 20px;
+            display: block;
+            align-items: center;
+        }
+
+        body{
+  padding: 25px;
+  background-color:rgb(157, 140, 199);
+}
+.title {
+	color:black;
+	text-align:center;
+}
+#todolist{
+  height: 20px;
+  width:200px;
+  line-height:500px;
+  margin:auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+#addtask-btn{
+  width:100px;
+  height: 30px;
+  margin-left:300px;
+  text-align: center;
+}
+        </style>
+     
+</head>
+
+<body>
+    <!-- color pallet -->
+    <!-- <div id="displaybox">
+    </div>
+    <input type="text" id="colorPal"name="colorName" placeholder="Enter the color name..">
+    <button id="clickme" onclick= "display()">click</button>
+    <script src="todolist.js"></script>
+    <!-- counter -->
+     <!-- <div id="counter-box">
+      <p id="counterVal">count :</p>
+     </div>
+     <button id="counter-btn" onclick="counterFn()">Counter</button> --> 
+      <h1 class="title">Todo list </h1>
+      <input type="text" id="todolist" placeholder="Title...">
+      <button id="addtask-btn">Add</button>
+      <!-- <button id="delete-btn" onclick="deleteTodo()">Delete</button> -->
+       <ul id="todo"></ul>
+       <ul id="completed"></ul>
+       <script src="todolist.js"></script>
+</body>
+</html>
